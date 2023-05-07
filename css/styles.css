@@ -8,7 +8,7 @@
 }
 
 .outline-button:hover {
-    background-image: linear-gradient(to bottom, #FFF 60%, #FFFF00 60% 100%);
+    background-image: linear-gradient(to bottom, #F8F9FA 60%, #FFFF00 60% 100%);
     border: none;
     color: black;
 }
