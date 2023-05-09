@@ -1,28 +1,92 @@
+p {
+    font-family: 'Source Sans Pro';
+}
+
 .tertiary-link {
-    color: black;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: .75rem; */
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #3A3F4A;
+}
+
+.tertiary-link-graybg {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: .75rem; */
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #3A3F4A;
 }
 
 .tertiary-link:hover {
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #fff 60%, #FFFF00 60% 100%);
+}
+
+.tertiary-link-graybg:hover {
     text-decoration: none;
     background-image: linear-gradient(to bottom, #F8F9FA 60%, #FFFF00 60% 100%);
 }
 
 .outline-button:hover {
-    background-image: linear-gradient(to bottom, #FFF 60%, #FFFF00 60% 100%);
+    background-image: linear-gradient(to bottom, #F8F9FA 60%, #FFFF00 60% 100%);
     border: none;
-    color: black;
+    color: #3A3F4A;
 }
 
 .my-brand {
     font-family: 'Shadows Into Light', cursive;
 }
 
+.intro-para {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #767575;
+}
+
+.desc-para {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #767575;
+}
+
+.access-restriction-note {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #3A3F4A
+}
+
 .section-header {
-    letter-spacing: 3px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .75rem;
+    letter-spacing: .19rem;
 }
 
 .project-tag {
-    letter-spacing: 1.5px;
+    /* letter-spacing: 1.5px; */
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .75rem;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #767575;
 }
 
 .featurette-divider {
@@ -39,6 +103,10 @@
 /* rtl:begin:remove */
 .featurette-heading {
     letter-spacing: -.05rem;
+    font-family: 'Playfair Display', serif;
+    color: #3A3F4A;
+    font-weight: 600;
+
 }
 
 @media (min-width: 40em) {
@@ -51,7 +119,9 @@
     }
 
     .featurette-heading {
-        font-size: 50px;
+        font-family: 'Playfair Display', serif;
+        color: #3A3F4A;
+        font-weight: 600;
     }
 }
 
@@ -65,7 +135,8 @@
     padding: 10px;
     text-decoration: none;
     border-radius: 50%;
-    background: #000000;
+    background: #3A3F4A;
+    ;
     color: white;
 }
 
@@ -73,13 +144,22 @@
     /* opacity: 0.7; */
     text-decoration: none;
     background-image: linear-gradient(to bottom, #F8F9FA 60%, #FFFF00 60% 100%);
-    color: #000000;
+    color: #3A3F4A;
 }
 
 .mailto-link {
     text-decoration: none;
-    color: black;
+    color: #3A3F4A;
 }
+
+/* p>.mailto-link {
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    color: #3A3F4A;
+} */
+
 
 .mailto-link:hover {
     text-decoration: none;
